@@ -6,33 +6,33 @@ This chunk is to fix Bootstrap so that the Markdown output looks good
 *******************************************************************/
 
 body {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 40px;
-  font-size: 15px;
-  line-height: 150%;
+  /*font-size: 15px;*/
+  /*line-height: 150%;*/
 }
 
 xmp, textarea {
   display: none;
 }
 
-h1,h2,h3,h4 {
+#markdownContent h1,h2,h3,h4 {
   margin: 15px 0;
 }
 
-pre {
+#markdownContent pre {
   margin: 20px 0;
 }
 
-img {
+#markdownContent img {
   margin: 10px 0;
 }
 
-.navbar {
+#markdownContent .navbar {
   z-index: 1;
 }
 
-.table {
+#markdownContent .table {
   width: auto;
 }
 
@@ -78,7 +78,7 @@ http://google-code-prettify.googlecode.com
 }
 
 /* Put a border around prettyprinted code snippets. */
-pre.prettyprint { padding: 2px; border: 1px solid #888 }
+#markdownContent pre.prettyprint { padding: 2px; border: 1px solid #888 }
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */

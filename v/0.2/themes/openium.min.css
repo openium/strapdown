@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Telex);
+
+/* Openium  */
+
+#markdownContent {
+    width: 100%;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.openium-logo {
+    padding-bottom: 20px;
+}
+
+.openium-header-right {
+    float: right;
+}
+
+.openium-customer {
+    color: #ff9900;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Signika', 'Telex', sans-serif;
+}
+
+.openium-specs {
+    color: #4581c3;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Signika', 'Telex', sans-serif;
+}
+
+#markdownContent {
+    font-family: "Trebuchet MS", 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #434343;
+}
+
+#markdownContent a {
+    color: #f39313;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#markdownContent h1 {
+    color: #f39313;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Signika', 'Telex', sans-serif;
+}
+
+#markdownContent h2 {
+    color: #234b76;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: 'Signika', 'Telex', sans-serif;
+}
+
+#markdownContent h3 {
+    color: #296799;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Signika', 'Telex', sans-serif;
+}
+
+#markdownContent h4 {
+    color: #4581c3;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Signika', 'Telex', sans-serif;
+}
